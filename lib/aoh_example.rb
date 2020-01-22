@@ -6,8 +6,6 @@ PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
 KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
-  # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
 
 def assembled_aoh
   people = [
@@ -19,9 +17,11 @@ def assembled_aoh
     ]
 end
 
-def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  
+def literal_aoh
+  
 end
 
 def aoh_lookup(aoh, row, key)
