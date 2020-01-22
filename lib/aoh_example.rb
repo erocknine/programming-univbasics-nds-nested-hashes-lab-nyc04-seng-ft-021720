@@ -21,7 +21,12 @@ end
   # held in the constants
   
 def literal_aoh
-  
+  array = []
+  array.push(DON_G)
+  array.push(JOELLE_VD)
+  array.push(PAT_M)
+  array.push(KATE_G)
+  array.push(BRUCE_G)
 end
 
 def aoh_lookup(aoh, row, key)
